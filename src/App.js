@@ -8,8 +8,8 @@ function App() {
   const [search, setSerach] = useState("");
   const [recipes, setRecipes] = useState([]);
 
-  const APP_ID = "26c09d24";
-  const APP_KEY = "7dc79c5d7dbba088db324d09cd8a295a";
+  const APP_ID = "Your ID";
+  const APP_KEY = "Your Key";
 
   useEffect(() => {
     getRecipes();
